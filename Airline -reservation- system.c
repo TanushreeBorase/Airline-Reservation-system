@@ -19,3 +19,5 @@ void initializeSeats()
         {
         seats[i].reserved = false;
         }
+}
+
