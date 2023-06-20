@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
+#include <stdbool.h> // provides a method to represent and manipulate boolean values, indicating whether a condition is true or false
 
 #define MAX_SEATS 10
 
