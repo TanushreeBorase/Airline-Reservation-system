@@ -18,4 +18,4 @@ void initializeSeats()
     for (int i = 0; i < MAX_SEATS; i++)
         {
         seats[i].reserved = false;
-    }
+        }
