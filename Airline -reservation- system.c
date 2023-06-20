@@ -13,7 +13,9 @@ typedef struct
 
 Seat seats[MAX_SEATS];
 
-void initializeSeats() {
-    for (int i = 0; i < MAX_SEATS; i++) {
+void initializeSeats()
+{
+    for (int i = 0; i < MAX_SEATS; i++)
+        {
         seats[i].reserved = false;
     }
