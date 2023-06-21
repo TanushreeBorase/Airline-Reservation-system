@@ -35,8 +35,10 @@ void displaySeats()
 // The reserveSeat function prompts the user to enter a seat number and check if the seat is available
 // If the seat is available, it asks for the passenger's name and reserves the seat
 
-void reserveSeat() {
+void reserveSeat() 
+{
     int seatNumber;
+
     printf("Enter the seat number you want to reserve: ");
     scanf("%d", &seatNumber);
 
