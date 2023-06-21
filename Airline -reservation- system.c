@@ -21,9 +21,12 @@ void initializeSeats()
         }
 }
 
-//The displaySeats function displays  whether seat is available or reserved
+//The displaySeats function displays  whether the seat is available or reserved
 void displaySeats()
 {
     printf("Seat\tStatus\n");
-
+     for (int i = 0; i < MAX_SEATS; i++) {
+        printf("%d\t%s\n", i + 1, seats[i].reserved ? "Reserved" : "Available");
+    }
+}
 
