@@ -22,5 +22,8 @@ void initializeSeats()
 }
 
 //The displaySeats function displays  whether seat is available or reserved
+void displaySeats()
+{
+    printf("Seat\tStatus\n");
 
 
