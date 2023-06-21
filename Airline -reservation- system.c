@@ -22,6 +22,7 @@ void initializeSeats()
 }
 
 //The displaySeats function displays  whether the seat is available or reserved
+
 void displaySeats()
 {
     printf("Seat\tStatus\n");
@@ -30,4 +31,8 @@ void displaySeats()
         printf("%d\t%s\n", i + 1, seats[i].reserved ? "Reserved" : "Available");
     }
 }
-//
+
+// The reserveSeat function prompts the user to enter a seat number and check if the seat is available
+// If the seat is available, it asks for the passenger's name and reserves the seat
+
+
