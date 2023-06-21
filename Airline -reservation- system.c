@@ -25,8 +25,9 @@ void initializeSeats()
 void displaySeats()
 {
     printf("Seat\tStatus\n");
-     for (int i = 0; i < MAX_SEATS; i++) {
+     for (int i = 0; i < MAX_SEATS; i++) 
+     {
         printf("%d\t%s\n", i + 1, seats[i].reserved ? "Reserved" : "Available");
     }
 }
-
+//
