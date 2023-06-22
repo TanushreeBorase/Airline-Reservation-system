@@ -52,4 +52,6 @@ void reserveSeat()
     {
         printf("Seat already reserved.\n");
     } else {
-    
+        printf("Seat is not reserved.\n");
+    }
+}    
