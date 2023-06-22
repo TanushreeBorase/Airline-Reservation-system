@@ -42,7 +42,8 @@ void reserveSeat()
     printf("Enter the seat number you want to reserve: ");
     scanf("%d", &seatNumber);
 
-    if (seatNumber < 1 || seatNumber > MAX_SEATS) {
+    if (seatNumber < 1 || seatNumber > MAX_SEATS)
+    {
         printf("Invalid seat number.\n");
         return;
     }
