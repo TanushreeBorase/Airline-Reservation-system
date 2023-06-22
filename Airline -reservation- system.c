@@ -55,3 +55,6 @@ void reserveSeat()
         printf("Seat is not reserved.\n");
     }
 }    
+
+int main()
+{
