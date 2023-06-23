@@ -58,6 +58,14 @@ void reserveSeat()
 
 // The cancelReservation function prompts the user to enter a seat number and cancels the reservation if the seat is already reserved.
 
+void cancelReservation() {
+    int seatNumber;
+
+    printf("Enter the seat number you want to cancel reservation: ");
+    scanf("%d", &seatNumber);
+
+
+
 
 
 int main()
