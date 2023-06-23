@@ -63,3 +63,10 @@ int main()
     int choice;
     do 
 {
+        printf("\nMenu:\n");
+        printf("1. Display available seats\n");
+        printf("2. Reserve a seat\n");
+        printf("3. Cancel reservation\n");
+        printf("0. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
