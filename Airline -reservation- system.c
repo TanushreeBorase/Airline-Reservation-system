@@ -56,6 +56,10 @@ void reserveSeat()
     }
 }    
 
+// The cancelReservation function prompts the user to enter a seat number and cancels the reservation if the seat is already reserved.
+
+
+
 int main()
 {
         initializeSeats();
