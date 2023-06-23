@@ -61,6 +61,7 @@ int main()
         initializeSeats();
 
     int choice;
+
     do 
 {
         printf("\nMenu:\n");
