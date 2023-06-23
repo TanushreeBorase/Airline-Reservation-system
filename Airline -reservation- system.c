@@ -58,3 +58,8 @@ void reserveSeat()
 
 int main()
 {
+        initializeSeats();
+
+    int choice;
+    do 
+{
