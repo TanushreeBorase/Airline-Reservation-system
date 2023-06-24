@@ -70,7 +70,18 @@ void cancelReservation() {
         return;
     }
 
+    if (seats[seatNumber - 1].reserved)
+    {
+        seats[seatNumber - 1].reserved = false;
+        printf("Reservation canceled successfully.\n");
+        
+    }
     
+    else 
+    {
+        printf("Seat is not reserved.\n");
+    }
+}
 
 
 
