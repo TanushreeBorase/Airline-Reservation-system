@@ -116,3 +116,7 @@ int main()
             case 2:
                 reserveSeat();
                 break;
+
+             case 3:
+                cancelReservation();
+                break;
