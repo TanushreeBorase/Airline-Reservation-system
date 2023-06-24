@@ -51,7 +51,10 @@ void reserveSeat()
     if (seats[seatNumber - 1].reserved) 
     {
         printf("Seat already reserved.\n");
-    } else {
+    }
+        
+    else
+    {
         printf("Seat is not reserved.\n");
     }
 }    
