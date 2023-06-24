@@ -86,9 +86,6 @@ void cancelReservation() {
     }
 }
 
-
-
-
 int main()
 {
         initializeSeats();
@@ -108,3 +105,14 @@ int main()
         printf("Enter your choice: ");
 
         scanf("%d", &choice);
+
+        switch (choice) 
+{
+
+            case 1:
+                displaySeats();
+                break;
+
+            case 2:
+                reserveSeat();
+                break;
