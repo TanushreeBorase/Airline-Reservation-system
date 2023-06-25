@@ -120,3 +120,11 @@ int main()
              case 3:
                 cancelReservation();
                 break;
+
+            case 0:
+                printf("Exiting the program.\n");
+                break;
+
+            default:
+                printf("Invalid choice.\n");
+        }
